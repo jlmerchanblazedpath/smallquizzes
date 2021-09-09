@@ -6,12 +6,7 @@
         "type": "Quiz"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsInsert(QuizzesDatabase.Quiz, ^quiz)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "integer",
     "variables": []
   },

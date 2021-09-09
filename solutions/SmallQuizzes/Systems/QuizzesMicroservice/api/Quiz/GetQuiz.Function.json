@@ -6,12 +6,7 @@
         "type": "integer"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsSelectOne(QuizzesDatabase.Quiz, This(), quizId == ^quizId)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "Quiz",
     "variables": []
   },

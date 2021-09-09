@@ -6,12 +6,7 @@
         "type": "Round"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsInsert(QuizzesDatabase.Round, ^round)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "integer",
     "variables": []
   },

@@ -6,12 +6,7 @@
         "type": "integer"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsSelectOne( QuizzesDatabase.Round, RdsSum( DatetimeDiff( endTime, startTime ) ), gameId == ^gameId )"
-      }
-    ],
+    "statements": [],
     "typeReturn": "integer",
     "variables": []
   },

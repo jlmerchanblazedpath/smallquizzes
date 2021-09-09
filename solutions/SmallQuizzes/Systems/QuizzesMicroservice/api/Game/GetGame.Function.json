@@ -6,12 +6,7 @@
         "type": "integer"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsSelectOne(QuizzesDatabase.Game, This(), gameId == ^gameId)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "Game",
     "variables": []
   },

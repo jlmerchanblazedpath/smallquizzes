@@ -13,16 +13,6 @@
         "variableName": "game"
       },
       {
-        "command": "Set",
-        "expression": "RdsSelect( QuizzesDatabase.Round, quizId, gameId == ^gameId )",
-        "variableName": "quizIdsPlayed"
-      },
-      {
-        "command": "Set",
-        "expression": "RdsSelect(\n\tQuizzesDatabase.Quiz,\n    quizId,\n    [\n    \ttopicId == ^game.topicId,\n        RdsConditional(\n        \tRdsNotIn( quizId, ^quizIdsPlayed ), Count( ^quizIdsPlayed ) > 0 \n        )\n    ]\n)",
-        "variableName": "availableQuizIdsToPick"
-      },
-      {
         "children": [
           {
             "command": "Return",

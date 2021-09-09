@@ -10,12 +10,7 @@
         "type": "Quiz"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsUpdate(QuizzesDatabase.Quiz, ^quiz, quizId == ^quizId)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "any",
     "variables": []
   },

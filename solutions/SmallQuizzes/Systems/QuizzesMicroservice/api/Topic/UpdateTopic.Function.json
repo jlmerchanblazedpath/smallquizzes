@@ -10,12 +10,7 @@
         "type": "Topic"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsUpdate(QuizzesDatabase.Topic, ^topic, topicId == ^topicId)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "any",
     "variables": []
   },

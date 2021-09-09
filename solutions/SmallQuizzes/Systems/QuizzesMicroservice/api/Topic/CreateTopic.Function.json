@@ -6,12 +6,7 @@
         "type": "Topic"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsInsert(QuizzesDatabase.Topic, ^topic)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "integer",
     "variables": []
   },

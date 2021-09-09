@@ -20,10 +20,6 @@
         "command": "Set",
         "expression": "game.score + endRoundScore",
         "variableName": "newScore"
-      },
-      {
-        "command": "Execute",
-        "expression": "RdsUpdate( QuizzesDatabase.Game, { score: ^newScore }, gameId == ^gameId )"
       }
     ],
     "typeReturn": "any",

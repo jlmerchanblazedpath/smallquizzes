@@ -6,12 +6,7 @@
         "type": "integer"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsDelete(QuizzesDatabase.Game, gameId == ^gameId)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "any",
     "variables": []
   },

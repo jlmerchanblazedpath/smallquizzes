@@ -11,10 +11,6 @@
         "command": "Set",
         "expression": "GetTotalTime( gameId )",
         "variableName": "totalTime"
-      },
-      {
-        "command": "Execute",
-        "expression": "RdsUpdate( QuizzesDatabase.Game, { endTime: Now(), totalTime: ^totalTime }, gameId == ^gameId )"
       }
     ],
     "typeReturn": "any",

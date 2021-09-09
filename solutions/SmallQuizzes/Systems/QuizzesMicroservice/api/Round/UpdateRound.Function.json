@@ -10,12 +10,7 @@
         "type": "Round"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsUpdate(QuizzesDatabase.Round, ^round, roundId == ^roundId)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "any",
     "variables": []
   },

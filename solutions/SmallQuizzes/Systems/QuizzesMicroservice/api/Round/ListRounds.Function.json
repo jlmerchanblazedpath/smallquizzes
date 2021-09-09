@@ -6,12 +6,7 @@
         "type": "ArgsListRounds"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsSelect(QuizzesDatabase.Round, This(), [RdsConditional(roundId == ^args.roundId, !IsNull(^args.roundId)), RdsConditional(gameId == ^args.gameId, !IsNull(^args.gameId)), RdsConditional(quizId == ^args.quizId, !IsNull(^args.quizId))], roundId, ^args.offset, ^args.limit)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "list(Round)",
     "variables": []
   },

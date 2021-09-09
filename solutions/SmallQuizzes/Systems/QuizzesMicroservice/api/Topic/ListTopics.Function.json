@@ -6,12 +6,7 @@
         "type": "ArgsListTopics"
       }
     ],
-    "statements": [
-      {
-        "command": "Return",
-        "expression": "RdsSelect(QuizzesDatabase.Topic, This(), [RdsConditional(topicId == ^args.topicId, !IsNull(^args.topicId))], topicId, ^args.offset, ^args.limit)"
-      }
-    ],
+    "statements": [],
     "typeReturn": "list(Topic)",
     "variables": []
   },
