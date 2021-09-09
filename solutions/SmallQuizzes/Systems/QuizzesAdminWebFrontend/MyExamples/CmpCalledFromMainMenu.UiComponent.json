@@ -1,0 +1,33 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "SetValue",
+            "expression": "{}",
+            "widgetName": "htmlrenderer1"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "main_init"
+    }
+  ],
+  "model": [],
+  "root": {
+    "children": [
+      {
+        "htmlTemplate": "<div>\n  <h1> Hello Webinar 03! </h1>\n</div>",
+        "name": "htmlrenderer1",
+        "widget": "HtmlRenderer"
+      }
+    ],
+    "cssClass": "blz-area-default",
+    "layout": "container"
+  },
+  "routing": null,
+  "unused": []
+}

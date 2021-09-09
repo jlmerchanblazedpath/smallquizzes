@@ -1,0 +1,19 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "myTopicId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "ConvertToString(Count(QuizzesMicroservice.ListQuizzes({ topicId : ^myTopicId })))"
+      }
+    ],
+    "typeReturn": "string",
+    "variables": []
+  },
+  "routing": null
+}

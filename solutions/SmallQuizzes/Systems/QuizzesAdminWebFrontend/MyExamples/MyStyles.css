@@ -1,0 +1,6 @@
+.my-background {
+    background-color: #b4d1c4;
+}
+.my-table-striped-class .blz-grid-row:nth-child(odd) .blz-grid-cell-container {
+   background-color: #bf9963!important;
+}
